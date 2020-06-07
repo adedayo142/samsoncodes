@@ -3919,7 +3919,7 @@ input, select, textarea {
 	display:block;
 }
 
-		@media screen and (max-width: 418px)
+		@media screen and (max-width: 418px){
 .grid-container {
     display: inline;
     text-align: center;
@@ -3929,8 +3929,9 @@ input, select, textarea {
     justify-content: space-between;
 
 }
+}
 
-@media screen and (max-width: 418px)
+@media screen and (max-width: 418px){
 .grid {
     display: inline;
     text-align: center;
@@ -3951,8 +3952,14 @@ input, select, textarea {
     display: inline-block;
     position: relative;
 }
+}
 
-@media screen and (max-width: 768px)
+@media screen and (max-width: 768px){
 #cont {
     width: 98%;
+}
+.image img {
+    border-radius: 0.25em;
+    display: block;
+}
 }
