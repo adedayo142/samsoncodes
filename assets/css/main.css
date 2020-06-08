@@ -3963,3 +3963,15 @@ input, select, textarea {
     display: block;
 }
 }
+
+@media screen and (max-width: 736px) {
+
+h2 {
+    font-size: 1.25em;
+}
+}
+
+.contributions {
+    text-align: center;
+    padding-bottom: 5%;
+}
