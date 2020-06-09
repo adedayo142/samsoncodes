@@ -7,11 +7,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<script type="text/javascript"> 
+		<!-- <script type="text/javascript"> 
 			function myalert() {
 				alert("Thank you for reaching out to me, message delivered, i will get back to you shortly.")
 			}
-		</script>
+		</script> -->
 	</head>
 	<body class="is-preload">
 
@@ -227,7 +227,7 @@
 							<p>To know more about my skills, to collaborate with me concerning what i do. I am also open to more opportunities</p>
 							<div class="split style1">
 								<section>
-									<form name="samson" method="post" action="" data-netlify="true" >
+									<form name="samson" method="post" action="" data-netlify="true" onsubmit="return validate()">
 										<div class="fields">
 											<div class="field half">
 												<label for="name">Name</label>
@@ -240,7 +240,7 @@
 											</div>
 											<div class="field half">
 												<label for="email">Email</label>
-												<input type="text" name="email" id="email" required/>
+												<input type="text" name="email" id="email" required />
 											</div>
 											<div class="field">
 												<label for="message">Message</label>
@@ -249,10 +249,11 @@
 										</div>
 
 										<ul class="actions">
-										<li><button type="submit" value="login" onclick="myalert()" >Send Message</button></li>
+										<li><button type="submit"  >Send Message</button></li>
 										</ul>
 									</form>
 								</section>
+								<script src="script.js"></script>
 
 								<section>
 									<ul class="contact">
