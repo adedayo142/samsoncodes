@@ -7,6 +7,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script type="text/javascript"> 
+			function myalert() {
+				alert("Form is submitted")
+			}
+		</script>
 	</head>
 	<body class="is-preload">
 
@@ -222,7 +227,7 @@
 							<p>To know more about my skills, to collaborate with me concerning what i do. I am also open to more opportunities</p>
 							<div class="split style1">
 								<section>
-									<form name="samson" method="post" action="" data-netlify="true" onsubmit="alert('Your form was submitted')">
+									<form name="samson" method="post" action="" data-netlify="true" >
 										<div class="fields">
 											<div class="field half">
 												<label for="name">Name</label>
@@ -244,7 +249,7 @@
 										</div>
 
 										<ul class="actions">
-										<li><button type="submit">Send Message</button></li>
+										<li><button type="submit" onclick="myalert()" >Send Message</button></li>
 										</ul>
 									</form>
 								</section>
