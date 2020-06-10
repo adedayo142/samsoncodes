@@ -227,24 +227,28 @@
 							<p>To know more about my skills, to collaborate with me concerning what i do. I am also open to more opportunities</p>
 							<div class="split style1">
 								<section>
-									<form name="samson" method="post" action="" id="form" data-netlify="true" onsubmit="return validate()">
+									<form name="samson" method="post" action="" id="form" data-netlify="true" onsubmit="return formvalidation()">
 										<div class="fields">
 											<div class="field half">
 												<label for="name">Name</label>
-												<input type="text" name="name" id="name" />
+												<input type="text" name="name" id="name" required="" />
 											</div>
 											<div class="field half">
 												<label for="phone">Phone Number</label>
-												<input type="text" name="phone" id="phone" required placeholder=''/>
-												<small id='PhError'></small>
+												<input type="text" name="phone" id="phone" required />
+												
 											</div>
-											<div class="field half">
+											<div class="field">
 												<label for="email">Email</label>
-												<input type="text" name="email" id="email" required />
+												<input type="email" name="email" id="email" required />
 											</div>
 											<div class="field">
 												<label for="message">Message</label>
+<<<<<<< HEAD
 												<textarea name="message" id="message" rows="5" required></textarea>
+=======
+												<textarea name="message" id="message" rows="5" required=""></textarea>
+>>>>>>> fda2adb52e8fbaaf48c29be41df0a18feeb29293
 											</div>
 										</div>
 
