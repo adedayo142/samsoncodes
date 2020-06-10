@@ -1,8 +1,13 @@
-/*
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+function formvalidation(){
+	var phone=document.getElementById('phone').value;
+		if(!Number(phone) || phone.length<7){
+			document.getElementById('phone').focus();
+			return false;
+		}else{
+			
+			alert("Thank you for reaching out to me, message delivered, i will get back to you shortly.");
+		}
+}
 
 (function($) {
 
