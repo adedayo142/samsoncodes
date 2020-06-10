@@ -3911,6 +3911,8 @@ input, select, textarea {
 
 .grid-container {
 	text-align: center;
+	display:flex;
+	justify-content: space-between;
 
 	
 }
@@ -3923,13 +3925,10 @@ input, select, textarea {
 .grid-container {
     display: inline;
     text-align: center;
-}
-.grid-container {
-    display: flex;
     justify-content: space-between;
 
 }
-}
+
 
 @media screen and (max-width: 418px){
 .grid {
@@ -3937,7 +3936,7 @@ input, select, textarea {
     text-align: center;
 }
 .grid {
-    display: flex;
+    
     flex-direction: column;
 }
 
