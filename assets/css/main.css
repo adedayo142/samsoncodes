@@ -3940,32 +3940,12 @@ input, select, textarea {
     flex-direction: column;
 }
 
-.contributions {
-    text-align: center;
-    padding-bottom: 5%;
+
+
 }
 
-.image {
-    border-radius: 0.25em;
-    border: 0;
-    display: inline-block;
-    position: relative;
-}
-}
 
-@media screen and (max-width: 768px){
-#cont {
-    width: 95%;
-}
-h2 {
-    font-size: 1.25em;
-}
-.contributions h2{
-			text-align: center;
-			padding-bottom: 5%;
-		}
-
-.contributions {
+#contributions  {
 			text-align: center;
 			padding-bottom: 5%;
 		}
