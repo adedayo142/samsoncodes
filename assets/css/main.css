@@ -3949,3 +3949,15 @@ input, select, textarea {
 			text-align: center;
 			padding-bottom: 5%;
 		}
+
+@media screen and (min-width: 200px) and (max-width:400px) {
+	#screen {
+		display: block;
+	}
+}
+
+@media screen and (min-width: 401px) and (max-width:1024px) {
+	#screen {
+		display: none;
+	}
+}
